@@ -5,7 +5,7 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-colour: #416a8e; /* blue*/
+    --primary-color: #3a2620; /* blue*/
     --secondary-color: #aa9581; /* light brown*/
     --highlight-color: #416a8e;/* blue*/
     --light-highlight: #7a9fc2;/* light blue*/
@@ -28,7 +28,17 @@ h3 {
     color: var(--highlight-color);
 }
 
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
 /* Grid test */
+
 /* .container,
 .row {
     border: 2px solid black;
